@@ -5,11 +5,9 @@ const client = new Discord.Client();
  
 
 client.on("ready", () => {
-  // This event will run if the bot starts, and logs in, successfully.
+  
   console.log(`Bot has started.`); 
-  // Example of changing the bot's playing game to something useful. `client.user` is what the
-  // docs refer to as the "ClientUser".
-  client.user.setActivity(` Kelas Drawing`);
+  
 });
 
  
